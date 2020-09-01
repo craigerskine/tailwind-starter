@@ -32,7 +32,7 @@
   article ul ul ul { list-style-type: circle; }
   article ol { list-style: decimal inside; }
   article ol ol { list-style-type: upper-alpha; }
-  article ol ol ol { list-style-type: lower-alpha; }
+  article ol ol ol { list-style-type: lower-roman; }
   article li li { padding-left: 1.5rem; }
   article dt { font-weight: bold; }
   article dd { padding-left: 1.5rem; }
@@ -64,7 +64,11 @@
     <li>Lorem ipsum dolor
       <ul>
         <li>Lorem ipsum dolor</li>
-        <li>Lorem ipsum dolor</li>
+        <li>Lorem ipsum dolor
+          <ul>
+            <li>Lorem ipsum dolor</li>
+          </ul>
+        </li>
         <li>Lorem ipsum dolor</li>
       </ul>
     </li>
@@ -75,7 +79,11 @@
     <li>Lorem ipsum dolor
       <ol>
         <li>Lorem ipsum dolor</li>
-        <li>Lorem ipsum dolor</li>
+        <li>Lorem ipsum dolor
+          <ol>
+            <li>Lorem ipsum dolor</li>
+          </ol>
+        </li>
         <li>Lorem ipsum dolor</li>
       </ol>
     </li>
