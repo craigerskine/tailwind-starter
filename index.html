@@ -1,0 +1,126 @@
+<!DOCTYPE doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta content="ie=edge" http-equiv="x-ua-compatible" />
+<title>Prose</title>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<link href="dist/styles.css" rel="stylesheet" />
+
+<style>
+  body { background: #FFF; color: var(--color-gray-600); }
+  @media (prefers-color-scheme: dark) {
+    /*body { background: var(--color-gray-900); color: var(--color-gray-100); }*/
+  }
+  a { color: var(--color-blue-600); text-decoration: underline; }
+  a:hover,a:focus { color: var(--color-blue-800); text-decoration-color: var(--color-blue-300); }
+  article { margin: 0 auto; max-width: 75ch; }
+  article h1,article h2,article h3,article h4,article h5,article h6 { margin-bottom: 2rem; font-weight: bold; font-size: 2.2rem; }
+  article h2 { margin-bottom: 1.8rem; font-size: 2rem; }
+  article h3 { margin-bottom: 1.6rem; font-size: 1.8rem; }
+  article h4 { margin-bottom: 1.4rem; font-size: 1.6rem; }
+  article h5 { margin-bottom: 1.2rem; font-size: 1.4rem; }
+  article h6 { margin-bottom: 1rem; font-size: 1.2rem; }
+  article p,article ul,article ol,article dl,article blockquote,article table,article hr { margin-bottom: 2rem; }
+  article blockquote { border-left: .25rem solid rgba(126,126,126,.2); padding: .5rem 1.25rem; font-style: italic; }
+  article blockquote p { margin-bottom: 1rem; }
+  article blockquote p:last-child { margin-bottom: 0; }
+  article hr { border-color: rgba(126,126,126,.2); }
+  article ul ul,article ul ol,article ol ol,article ol ul { margin-bottom: 0; }
+  article ul { list-style: disc inside; }
+  article ul ul { list-style-type: square; }
+  article ul ul ul { list-style-type: circle; }
+  article ol { list-style: decimal inside; }
+  article ol ol { list-style-type: upper-alpha; }
+  article ol ol ol { list-style-type: lower-alpha; }
+  article li li { padding-left: 1.5rem; }
+  article dt { font-weight: bold; }
+  article dd { padding-left: 1.5rem; }
+  article table { width: 100%; }
+  article th { text-align: left; }
+  article th,article td { padding: .5rem; }
+  article tr { border-bottom: 1px solid rgba(126,126,126,.2); }
+  article tbody > tr:nth-child(odd) { background: rgba(126,126,126,.05); }
+</style>
+</head>
+<body class="py-8 px-4">
+<article>
+  <h1>Heading 1</h1>
+  <h2>Heading 2</h2>
+  <h3>Heading 3</h3>
+  <h4>Heading 4</h4>
+  <h5>Heading 5</h5>
+  <h6>Heading 6</h6>
+  <hr />
+  <p>Paragraph... Lorem ipsum dolor sit amet consectetur, <a href="#">adipisicing elit</a>. Veniam numquam <strong>consequatur</strong> <b>reiciendis</b>, minus. Cumque <em>laboriosam</em>, <i>similique</i> ab, consequuntur maxime quo quasi temporibus aspernatur eligendi nemo voluptate dolores et ipsam iusto.</p>
+  <blockquote>
+    <p>Blockquote... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, voluptatem, eveniet dicta a repellat quod facilis fuga id rem quam fugit eum nisi non impedit animi quidem voluptatum nulla et!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor quod enim expedita illum atque nemo dicta quibusdam aliquid, nam repellat, repellendus aspernatur, quam ducimus exercitationem delectus, quae. Earum ullam, facere?</p>
+  </blockquote>
+  <hr />
+  <h2>Lists...</h2>
+  <ul>
+    <li>Unordered... Lorem ipsum dolor</li>
+    <li>Lorem ipsum dolor
+      <ul>
+        <li>Lorem ipsum dolor</li>
+        <li>Lorem ipsum dolor</li>
+        <li>Lorem ipsum dolor</li>
+      </ul>
+    </li>
+    <li>Lorem ipsum dolor</li>
+  </ul>
+  <ol>
+    <li>Ordered... Lorem ipsum dolor</li>
+    <li>Lorem ipsum dolor
+      <ol>
+        <li>Lorem ipsum dolor</li>
+        <li>Lorem ipsum dolor</li>
+        <li>Lorem ipsum dolor</li>
+      </ol>
+    </li>
+    <li>Lorem ipsum dolor</li>
+  </ol>
+  <dl>
+    <dt>Term</dt>
+    <dd>Definition</dd>
+    <dt>Term</dt>
+    <dd>Definition</dd>
+    <dt>Term</dt>
+    <dd>Definition</dd>
+  </dl>
+  <hr />
+  <h2>Table...</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Wrestler</th>
+        <th>Origin</th>
+        <th>Finisher</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Bret "The Hitman" Hart</td>
+        <td>Calgary, AB</td>
+        <td>Sharpshooter</td>
+      </tr>
+      <tr>
+        <td>Stone Cold Steve Austin</td>
+        <td>Austin, TX</td>
+        <td>Stone Cold Stunner</td>
+      </tr>
+      <tr>
+        <td>Randy Savage</td>
+        <td>Sarasota, FL</td>
+        <td>Elbow Drop</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3>Heading and then some content...</h3>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Tempore aliquam eligendi vel, aperiam totam facere numquam molestias nisi voluptatem expedita vitae perferendis ipsam iusto tempora laboriosam illum sit nulla sapiente. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, doloremque, quod. Provident culpa, pariatur ullam illum expedita et alias quis repellendus dolorum unde! Fuga minus odio voluptates sapiente dicta quod!</p>
+  <h5>Another heading</h5>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Veniam enim consequatur perspiciatis sapiente, adipisci et non quos iure earum libero recusandae, labore placeat exercitationem ea amet. Accusamus qui libero, dolore.</p>
+</article>
+</body>
+</html>

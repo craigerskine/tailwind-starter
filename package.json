@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-starter",
+  "version": "1.0.0",
+  "description": "get started with some reasonable defaults and css vars",
+  "main": "src/styles.css",
+  "scripts": {
+    "postinstall": "./node_modules/.bin/gulp css",
+    "update:packages": "node wipe-dependencies.js && rm -rf node_modules && npm update --save-dev && npm update --save"
+  },
+  "author": "craigerskine",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "*",
+    "gulp": "*",
+    "gulp-clean-css": "*",
+    "gulp-postcss": "*",
+    "tailwindcss": "*"
+  }
+}
