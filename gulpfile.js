@@ -10,7 +10,7 @@ gulp.task('css', function(){
     ]))
     .pipe(cleancss({
       compatibility: 'ie9',
-      format: 'keep-breaks',
+      //format: 'keep-breaks',
     }))
     .pipe(gulp.dest('./dist/'));
 });
